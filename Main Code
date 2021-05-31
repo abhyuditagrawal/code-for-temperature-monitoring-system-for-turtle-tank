@@ -1,0 +1,8 @@
+alert("Welcome to The Temperature Monitor for my Turtle Tank")
+setChartLibrary('google-chart');
+setChartTitle('Turtle Tank Temperature Monitor');
+setChartType('lineGraph');
+setAxisName('Time', 'temp');
+setCrosshair(true);
+mul(0.0977);
+plotChart('time_stamp', 'temp');
